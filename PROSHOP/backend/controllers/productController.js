@@ -4,7 +4,7 @@ import ErrorResponse from "../utils/errorResponse.js";
 
 
 //@desc get all products
-//@route GET api/products/courses
+//@route GET api/products
 //@access public
 const getAllProducts=asyncHandler(async(req,res,next)=>{
     const products=await Product.find({});
