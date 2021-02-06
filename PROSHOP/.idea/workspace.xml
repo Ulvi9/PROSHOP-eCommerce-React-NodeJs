@@ -19,13 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e598e011-5685-4e25-88a4-5d17c74f2fd8" name="Default Changelist" comment="adding productController(backend)">
-      <change afterPath="$PROJECT_DIR$/backend/controllers/userController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/userRoutes.js" afterDir="false" />
+    <list default="true" id="e598e011-5685-4e25-88a4-5d17c74f2fd8" name="Default Changelist" comment="adding user Authentication(backend)">
+      <change afterPath="$PROJECT_DIR$/backend/middleware/authMiddleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/utils/generateToken.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/productController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/productController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/userModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/userModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/userController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/userRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/userRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +71,7 @@
       <updated>1612514715281</updated>
       <workItem from="1612514728185" duration="5711000" />
       <workItem from="1612524654242" duration="11232000" />
-      <workItem from="1612592577495" duration="15187000" />
+      <workItem from="1612592577495" duration="18724000" />
     </task>
     <task id="LOCAL-00001" summary="adding product with product Reducer">
       <created>1612524928210</created>
@@ -100,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612606414431</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adding user Authentication(backend)">
+      <created>1612612885584</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612612885584</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,16 +131,17 @@
     <MESSAGE value="adding product with product Reducer" />
     <MESSAGE value="adding ShoppingCart UI (add,remove product shoppingCart)" />
     <MESSAGE value="adding productController(backend)" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding productController(backend)" />
+    <MESSAGE value="adding user Authentication(backend)" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding user Authentication(backend)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1612553955496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612553955496" />
-    <state x="270" y="97" key="Vcs.Push.Dialog.v2" timestamp="1612606428318">
+    <state x="270" y="97" key="Vcs.Push.Dialog.v2" timestamp="1612612910107">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="270" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612606428318" />
+    <state x="270" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612612910107" />
   </component>
 </project>
