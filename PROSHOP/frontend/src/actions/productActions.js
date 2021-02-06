@@ -23,9 +23,9 @@ export const listProducts=()=>async (dispatch)=>{
                 e.response.data.message:e.message
         });
     }
-}
-//detail
+};
 
+//detail
 export const listProductDetails=(id)=>async (dispatch)=>{
     try {
         dispatch({type:PRODUCT_DETAILS_REQUEST});

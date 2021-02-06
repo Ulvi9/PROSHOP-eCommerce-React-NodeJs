@@ -1,19 +1,23 @@
 import Rating from "../components/Rating";
 import {Link} from "react-router-dom";
-import {Row,Col,Image,ListGroup,Button,Card} from "react-bootstrap";
-import React, {useEffect} from "react";
+import {Row,Col,Image,ListGroup,Button,Card,Form} from "react-bootstrap";
+import React, {useState,useEffect} from "react";
 import {useDispatch,useSelector} from "react-redux";
 import Loader from "../components/Loader";
 import Message from "../components/Message";
 import {listProductDetails} from "../actions/productActions";
 
-const ProductScreen = ({match}) => {
+const ProductScreen = ({history,match}) => {
+    const[qty,setQty]=useState(0);
     const dispatch=useDispatch();
     const productDetail=useSelector(state=>state.productDetail);
     const{product,error,loading} =productDetail;
     useEffect(()=>{
         dispatch(listProductDetails(match.params.id));
     },[dispatch,match]);
+    const addCartHandler=()=>{
+       history.push(`/cart/${match.params.id}?qyt=${qty}`)
+    }
     return <>
         <Link className="btn btn-light my-3" to="/">
             Go Back
@@ -30,7 +34,9 @@ const ProductScreen = ({match}) => {
                                 <h3>{product.name}</h3>
                             </ListGroup.Item>
                             <ListGroup.Item>
-                                <Rating value={product.rating} text={`${product.numReviews} reviews`}></Rating>
+                                <Rating
+                                    value={product.rating} text={`${product.numReviews} reviews`}
+                                    ></Rating>
                             </ListGroup.Item>
                             <ListGroup.Item>Price: ${product.price}</ListGroup.Item>
                             <ListGroup.Item>Description: {product.description}</ListGroup.Item>
@@ -57,8 +63,28 @@ const ProductScreen = ({match}) => {
                                         </Col>
                                     </Row>
                                 </ListGroup.Item>
+                                {product.countInStock>0&&
                                 <ListGroup.Item>
-                                    <Button className="btn-block" type="button" disabled={product.countInStock===0}>
+                                <Row>
+                                    <Col>Qty</Col>
+                                    <Col>
+                                        <Form.Control
+                                            as="select" value={qty}
+                                            onChange={(e)=>setQty(Number(e.target.value))}>
+                                            {[...Array(product.countInStock).keys()].map(x=>(
+                                                <option key={x+1} value={x+1}>
+                                                    {x+1}
+                                                </option>
+                                            ))}
+                                        </Form.Control>
+                                    </Col>
+                                </Row>
+                                </ListGroup.Item>
+                                }
+                                <ListGroup.Item>
+                                    <Button className="btn-block"
+                                            onClick={addCartHandler}
+                                            type="button" disabled={product.countInStock===0}>
                                         Add to Cart
                                     </Button>
                                 </ListGroup.Item>

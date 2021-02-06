@@ -19,19 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e598e011-5685-4e25-88a4-5d17c74f2fd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PROSHOP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="e598e011-5685-4e25-88a4-5d17c74f2fd8" name="Default Changelist" comment="adding product with product Reducer">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/actions/cartActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/constants/cartConstants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/reducers/cartReducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/screens/CartScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/actions/productActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/productActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Loader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Rating.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Rating.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/constants/productConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/productConstants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/reducers/productReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reducers/productReducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/screens/ProductScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/ProductScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store.js" afterDir="false" />
     </list>
@@ -39,6 +38,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -53,7 +59,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -68,7 +76,24 @@
       <option name="presentableId" value="Default" />
       <updated>1612514715281</updated>
       <workItem from="1612514728185" duration="5711000" />
+      <workItem from="1612524654242" duration="11232000" />
+      <workItem from="1612592577495" duration="8753000" />
     </task>
+    <task id="LOCAL-00001" summary="adding product with product Reducer">
+      <created>1612524928210</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612524928210</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adding product with product Reducer">
+      <created>1612524945011</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612524945011</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,8 +109,21 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="adding product with product Reducer" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding product with product Reducer" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1612553955496">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612553955496" />
+    <state x="270" y="97" key="Vcs.Push.Dialog.v2" timestamp="1612524957286">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="270" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612524957286" />
   </component>
 </project>
