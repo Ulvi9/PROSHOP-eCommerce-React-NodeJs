@@ -25,6 +25,35 @@ const user =await User.findOne({email:email});
 // @desc      Get current logged in user
 // @route     GET /api/users/profile
 // @access    Private
+
+//@desc Register user
+//@route Post api/users
+//@access public
+const register=asyncHandler(async (req,res,next)=>{
+    const {name,password,email}=req.body;
+    const existUser=await User.findOne({email:email});
+    if (existUser){
+        return next(new ErrorResponse("User already exist",400));
+    }
+    const user=await User.create({
+        name,
+        password,
+        email
+    });
+    if (user){
+        res.status(201).json({
+            success: true,
+            _id:user._id,
+            name:user.name,
+            isAdmin:user.isAdmin,
+            email:user.email,
+            token:generateToken(user._id)
+        })
+    }
+    else {
+        return next(new ErrorResponse("Invalid user data",400));
+    }
+});
 const getUserProfile=asyncHandler(async(req,res,next)=>{
     // user is already available in req due to the protect middleware
     // const user = req.user;
@@ -43,4 +72,4 @@ const getUserProfile=asyncHandler(async(req,res,next)=>{
     }
 });
 
-export {auth,getUserProfile}
+export {auth,getUserProfile,register}
