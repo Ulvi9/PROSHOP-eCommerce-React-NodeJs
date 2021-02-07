@@ -20,7 +20,7 @@ const CartScreen = ({match,location,history}) => {
         dispatch(removeFromCard(id));
      }
      const checkOutHandler=()=>{
-         history.push("/login?redirect=shipping")
+         history.push("/login?redirect=shipping");
      }
     return <Row>
         <Col md={8}>
