@@ -9,7 +9,7 @@ import generateToken from "../utils/generateToken.js";
 //@access public
 const auth=asyncHandler(async(req,res,next)=>{
 const {email,password}=req.body;
-const user =await User.findOne({email:email});
+const user =await User.findOne({email});
     if (user&&(await user.matchPassword(password))){
        return res.send({
            _id:user._id,
@@ -19,7 +19,9 @@ const user =await User.findOne({email:email});
            token:generateToken(user._id)
        })
     }else{
-       next(new ErrorResponse("UnAuthorized",401));
+       return next(new ErrorResponse("Invalid email or Password",401));
+        //res.status(401)
+       // throw new Error('Invalid email or password')
     }
 });
 // @desc      Get current logged in user

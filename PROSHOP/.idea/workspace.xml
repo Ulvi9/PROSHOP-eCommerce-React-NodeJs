@@ -19,11 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e598e011-5685-4e25-88a4-5d17c74f2fd8" name="Default Changelist" comment="adding protected Middleware(backend)">
+    <list default="true" id="e598e011-5685-4e25-88a4-5d17c74f2fd8" name="Default Changelist" comment="adding user Register(backend)">
+      <change afterPath="$PROJECT_DIR$/frontend/src/actions/userActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/FormContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/constants/userConstants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/reducers/userReducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/screens/LoginScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/userController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/userModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/userModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/userRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/userRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +76,8 @@
       <updated>1612514715281</updated>
       <workItem from="1612514728185" duration="5711000" />
       <workItem from="1612524654242" duration="11232000" />
-      <workItem from="1612592577495" duration="20820000" />
+      <workItem from="1612592577495" duration="28969000" />
+      <workItem from="1612679496873" duration="2019000" />
     </task>
     <task id="LOCAL-00001" summary="adding product with product Reducer">
       <created>1612524928210</created>
@@ -112,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612638831807</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adding user Register(backend)">
+      <created>1612642084804</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1612642084804</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,16 +153,21 @@
     <MESSAGE value="adding productController(backend)" />
     <MESSAGE value="adding user Authentication(backend)" />
     <MESSAGE value="adding protected Middleware(backend)" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding protected Middleware(backend)" />
+    <MESSAGE value="adding user Register(backend)" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding user Register(backend)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1612553955496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612553955496" />
-    <state x="270" y="97" key="Vcs.Push.Dialog.v2" timestamp="1612638839231">
+    <state x="270" y="97" key="Vcs.Push.Dialog.v2" timestamp="1612642096844">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="270" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612638839231" />
+    <state x="270" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612642096844" />
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612642059820">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1612642059820" />
   </component>
 </project>
