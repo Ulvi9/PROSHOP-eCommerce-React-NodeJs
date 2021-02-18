@@ -20,14 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e598e011-5685-4e25-88a4-5d17c74f2fd8" name="Default Changelist" comment="adding admin Middleware GetUsers(backend)">
-      <change afterPath="$PROJECT_DIR$/frontend/src/screens/UserListScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/userController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/userRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/userRoutes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/actions/userActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/userActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/constants/userConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/userConstants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/reducers/userReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reducers/userReducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/UserListScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/UserListScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,6 +80,7 @@
       <workItem from="1613147023132" duration="3282000" />
       <workItem from="1613197425210" duration="448000" />
       <workItem from="1613629344801" duration="6584000" />
+      <workItem from="1613652413096" duration="3980000" />
     </task>
     <task id="LOCAL-00001" summary="adding product with product Reducer">
       <created>1612524928210</created>
@@ -273,7 +274,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/backend/controllers/orderController.js</url>
           <line>40</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

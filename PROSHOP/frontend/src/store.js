@@ -9,7 +9,8 @@ import {
     userRegisterReducer,
     userDetailsReducer,
     userUpdateProfileReducer,
-    userListReducer
+    userListReducer,
+    userDeleteReducer
 } from "./reducers/userReducers"
 
 
@@ -22,7 +23,8 @@ const reducer=combineReducers({
     userDetails:userDetailsReducer,
     userUpdateProfile:userUpdateProfileReducer,
     orderCreate:orderCreateReducer,
-    userList:userListReducer
+    userList:userListReducer,
+    userDelete:userDeleteReducer
 });
 const middleware=[thunk];
 //cart from localstorage
