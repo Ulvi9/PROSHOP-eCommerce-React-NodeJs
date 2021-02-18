@@ -5,6 +5,7 @@ import errorHandler from "./middleware/error.js";
 import colors from "colors";
 import productRoutes from "./routes/productRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
+import orderRoutes from "./routes/orderRoutes.js";
 
 //load end vars
 dotenv.config();
@@ -19,7 +20,8 @@ app.get("/",((req, res) => {
 }));
 //routes
 app.use("/api/products",productRoutes);
-app.use("/api/users",userRoutes)
+app.use("/api/users",userRoutes);
+app.use("/api/orders",orderRoutes);
 
 //errorHandler
 app.use(errorHandler);

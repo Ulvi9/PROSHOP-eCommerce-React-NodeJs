@@ -19,7 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e598e011-5685-4e25-88a4-5d17c74f2fd8" name="Default Changelist" comment="adding  PlaceOrderScreen UI (frontend)" />
+    <list default="true" id="e598e011-5685-4e25-88a4-5d17c74f2fd8" name="Default Changelist" comment="adding  PlaceOrderScreen UI (frontend)">
+      <change afterPath="$PROJECT_DIR$/backend/controllers/orderController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/orderRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/actions/orderActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/constants/orderConstants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/reducers/orderReducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/PlaceOrderScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/PlaceOrderScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/ProductScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/ProductScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +77,11 @@
       <workItem from="1612524654242" duration="11232000" />
       <workItem from="1612592577495" duration="28969000" />
       <workItem from="1612679496873" duration="17748000" />
-      <workItem from="1612767441426" duration="5283000" />
+      <workItem from="1612767441426" duration="20677000" />
+      <workItem from="1612899265367" duration="50000" />
+      <workItem from="1613147023132" duration="3282000" />
+      <workItem from="1613197425210" duration="448000" />
+      <workItem from="1613629344801" duration="1279000" />
     </task>
     <task id="LOCAL-00001" summary="adding product with product Reducer">
       <created>1612524928210</created>
@@ -179,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612774267423</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="adding  PlaceOrderScreen UI (frontend)">
+      <created>1612774297131</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1612774297131</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,17 +240,29 @@
     <option name="LAST_COMMIT_MESSAGE" value="adding  PlaceOrderScreen UI (frontend)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1612553955496">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1613197874720">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612553955496" />
-    <state x="270" y="97" key="Vcs.Push.Dialog.v2" timestamp="1612769965900">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1613197874720" />
+    <state x="270" y="97" key="Vcs.Push.Dialog.v2" timestamp="1612774330765">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="270" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612769965900" />
+    <state x="270" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612774330765" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612642059820">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1612642059820" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/controllers/orderController.js</url>
+          <line>40</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
