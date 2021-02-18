@@ -33,5 +33,11 @@ const protect=asyncHandler(async (req,res,next)=>{
         return next(new ErrorResponse('Not authorized to access this route', 401));
     }
 });
-
-export {protect}
+const admin=(req,res,next)=>{
+    if (req.user&&req.user.isAdmin){
+        next();
+    }else{
+        return next(new ErrorResponse('Not authorized to access this route', 401));
+    }
+}
+export {protect,admin}
