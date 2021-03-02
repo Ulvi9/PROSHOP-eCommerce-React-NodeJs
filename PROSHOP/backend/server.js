@@ -7,8 +7,9 @@ import productRoutes from "./routes/productRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
 import orderRoutes from "./routes/orderRoutes.js";
 
+
 //load end vars
-dotenv.config();
+dotenv.config({path:"../.env"});
 //connect database
 connectDb();
 const app=express();

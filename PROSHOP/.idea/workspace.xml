@@ -19,16 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e598e011-5685-4e25-88a4-5d17c74f2fd8" name="Default Changelist" comment="adding admin Middleware GetUsers(backend)">
+    <list default="true" id="e598e011-5685-4e25-88a4-5d17c74f2fd8" name="Default Changelist" comment="adding admin deleteUser (front,backend)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/userController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/routes/userRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/userRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/actions/userActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/userActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/constants/userConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/userConstants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/reducers/userReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reducers/userReducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/screens/UserListScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/UserListScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Misir/AngularWebApiProject/Hospital/Hospital-Angular" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -80,7 +75,11 @@
       <workItem from="1613147023132" duration="3282000" />
       <workItem from="1613197425210" duration="448000" />
       <workItem from="1613629344801" duration="6584000" />
-      <workItem from="1613652413096" duration="3980000" />
+      <workItem from="1613652413096" duration="5794000" />
+      <workItem from="1613797285808" duration="803000" />
+      <workItem from="1614183928380" duration="592000" />
+      <workItem from="1614248601826" duration="23000" />
+      <workItem from="1614670514541" duration="3624000" />
     </task>
     <task id="LOCAL-00001" summary="adding product with product Reducer">
       <created>1612524928210</created>
@@ -215,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613632950145</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="adding admin deleteUser (front,backend)">
+      <created>1613656702673</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1613656702674</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,17 +258,18 @@
     <MESSAGE value="adding  PlaceOrderScreen UI (frontend)" />
     <MESSAGE value="adding create order (frontend)" />
     <MESSAGE value="adding admin Middleware GetUsers(backend)" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding admin Middleware GetUsers(backend)" />
+    <MESSAGE value="adding admin deleteUser (front,backend)" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding admin deleteUser (front,backend)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1613197874720">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1613797785065">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1613197874720" />
-    <state x="270" y="97" key="Vcs.Push.Dialog.v2" timestamp="1613632957029">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1613797785065" />
+    <state x="270" y="97" key="Vcs.Push.Dialog.v2" timestamp="1613656739290">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="270" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1613632957029" />
+    <state x="270" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1613656739290" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612642059820">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

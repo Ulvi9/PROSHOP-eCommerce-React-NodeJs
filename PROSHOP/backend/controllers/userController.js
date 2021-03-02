@@ -83,8 +83,6 @@ const getUserProfile=asyncHandler(async(req,res,next)=>{
 const getUsers=asyncHandler(async(req,res,next)=>{
     const users=await User.find({});
     res.json(users);
-
-
 });
 
 // @desc    Update user profile
@@ -115,6 +113,39 @@ const updateUserProfile = asyncHandler(async (req, res) => {
     }
 });
 
+//@desc get user byId
+//@route GET api/users/:id
+//@access public
+const getUserById=asyncHandler(async(req,res,next)=>{
+    const user=await User.findById(req.params.id);
+    if (user){ res.json(user);}
+    else{
+        return next(new ErrorResponse("User not found",404));
+    }
+});
+// @desc    Update Update User
+// @route   PUT /api/users/:id
+// @access  Private Admin
+const updateUser = asyncHandler(async (req, res,next) => {
+    const user = await User.findById(req.params.id)
+    if (user) {
+        user.name = req.body.name || user.name
+        user.email = req.body.email || user.email
+        user.isAdmin= req.body.isAdmin||user.isAdmin
+
+        const updatedUser = await user.save()
+
+        res.json({
+            _id: updatedUser._id,
+            name: updatedUser.name,
+            email: updatedUser.email,
+            isAdmin: updatedUser.isAdmin
+        })
+    } else {
+        res.status(404)
+        throw new Error('User not found')
+    }
+});
 //@desc delete user
 //@route DELETE api/users/:id
 //@access private admin
@@ -132,4 +163,4 @@ const deleteUser=asyncHandler(async(req,res,next)=>{
         next(new ErrorResponse("User not found",404));
     }
 });
-export {auth,getUserProfile,register,updateUserProfile,getUsers,deleteUser}
+export {auth,getUserProfile,register,updateUserProfile,getUsers,deleteUser,getUserById,updateUser}

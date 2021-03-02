@@ -5,14 +5,19 @@ import {
     register,
     updateUserProfile,
     getUsers,
-    deleteUser}
+    deleteUser,
+    getUserById,
+    updateUser}
     from "../controllers/userController.js";
 import {protect,admin} from "../middleware/authMiddleware.js";
 
 
 const router=express.Router();
 router.get("/",protect,admin,getUsers);
-router.delete("/:id",protect,admin,deleteUser);
+router.route("/:id")
+    .delete(protect,admin,deleteUser)
+    .get(protect,admin,getUserById)
+    .put(protect,admin,updateUser);
 
 router.post("/login",auth);
 router.route("/profile").get(protect,getUserProfile);
