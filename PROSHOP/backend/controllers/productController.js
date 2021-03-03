@@ -36,4 +36,44 @@ const deleteProduct=asyncHandler(async(req,res,next)=>{
         return  next(new ErrorResponse(`product did not find with id ${req.params.id}`),404) ;
     }
 })
-export { getProduct,getAllProducts,deleteProduct}
+
+//@desc create a product
+//@route Post api/products
+//@access private/admin
+const createProduct=asyncHandler(async(req,res,next)=>{
+    const product=new Product({
+        name:"sample name",
+        description:"sample description",
+        category:"sapmle category",
+        price:0,
+        numReviews: 0,
+        user:req.user._id,
+        brand:"sample brand",
+        image:"/images/sample.jpg",
+        countInStock: 0
+    })
+    const createdProduct=await product.save();
+    res.status(201).json(product);
+});
+//@desc update a product
+//@route Put api/products/:id
+//@access private/admin
+const updateProduct=asyncHandler(async(req,res,next)=>{
+    const { name,image,description,category,price,countInStock,brand}=req.body;
+   const product=await Product.findById(req.params.id);
+   if (product){
+    product.name=name;
+    product.price=price;
+    product.category=category;
+    product.image=image;
+    product.countInStock=countInStock;
+    product.brand=brand;
+    product.description=description
+       const updatedProduct=await product.save();
+    res.status(201).json(updatedProduct)
+
+   }else{
+       return  next(new ErrorResponse(`product did not find with id ${req.params.id}`),404) ;
+   }
+});
+export { getProduct,getAllProducts,deleteProduct,createProduct,updateProduct}
