@@ -19,13 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e598e011-5685-4e25-88a4-5d17c74f2fd8" name="Default Changelist" comment="adding admin create,Update Product (backend)">
-      <change afterPath="$PROJECT_DIR$/backend/routes/uploadsRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/file.txt" afterDir="false" />
+    <list default="true" id="e598e011-5685-4e25-88a4-5d17c74f2fd8" name="Default Changelist" comment="adding multer FileUpload (backend)">
+      <change afterPath="$PROJECT_DIR$/uploads/mouse.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/uploadsRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/uploadsRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.eslintcache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,7 @@
       <workItem from="1614248601826" duration="23000" />
       <workItem from="1614670514541" duration="5806000" />
       <workItem from="1614757254207" duration="3220000" />
-      <workItem from="1614841763677" duration="1572000" />
+      <workItem from="1614841763677" duration="4009000" />
     </task>
     <task id="LOCAL-00001" summary="adding product with product Reducer">
       <created>1612524928210</created>
@@ -246,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614774359220</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="adding multer FileUpload (backend)">
+      <created>1614843574272</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1614843574272</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,17 +293,19 @@
     <MESSAGE value="adding admin UpdateUserById,getUserById (backend)" />
     <MESSAGE value="adding admin deleteProduct (backend)" />
     <MESSAGE value="adding admin create,Update Product (backend)" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding admin create,Update Product (backend)" />
+    <MESSAGE value="adding admin multer FileUpload (backend)" />
+    <MESSAGE value="adding multer FileUpload (backend)" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding multer FileUpload (backend)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1613797785065">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1613797785065" />
-    <state x="270" y="97" key="Vcs.Push.Dialog.v2" timestamp="1614774366560">
+    <state x="270" y="97" key="Vcs.Push.Dialog.v2" timestamp="1614843578022">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="270" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1614774366560" />
+    <state x="270" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1614843578022" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614713826031">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
