@@ -8,6 +8,7 @@ import userRoutes from "./routes/userRoutes.js";
 import orderRoutes from "./routes/orderRoutes.js";
 import uploadsRoutes from "./routes/uploadsRoutes.js"
 import path from "path";
+import morgan from "morgan";
 
 
 //load end vars
@@ -18,6 +19,10 @@ const app=express();
 
 //body parser
 app.use(express.json());
+//morgan
+if(process.env.NODE_ENV="development"){
+    app.use(morgan("dev"));
+}
 app.get("/",((req, res) => {
     res.send("Api is running")
 }));
