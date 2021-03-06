@@ -7,7 +7,13 @@ import ErrorResponse from "../utils/errorResponse.js";
 //@route GET api/products
 //@access public
 const getAllProducts=asyncHandler(async(req,res,next)=>{
-    const products=await Product.find({});
+    const keyword=req.query.keyword?{
+        name:{
+            $regex:req.query.keyword,
+            $options:"i"
+        }
+    }:{};
+    const products=await Product.find({...keyword});
     //throw new ErrorResponse("error",404)
     res.json(products);
 });
