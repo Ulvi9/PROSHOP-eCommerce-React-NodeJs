@@ -7,15 +7,18 @@ import ErrorResponse from "../utils/errorResponse.js";
 //@route GET api/products
 //@access public
 const getAllProducts=asyncHandler(async(req,res,next)=>{
+    const pageSize=3;
+    const page=Number(req.query.pageNumber)||2;
     const keyword=req.query.keyword?{
         name:{
             $regex:req.query.keyword,
             $options:"i"
         }
     }:{};
-    const products=await Product.find({...keyword});
+    const count=await Product.count({...keyword});
+    const products=await Product.find({...keyword}).limit(pageSize).skip(pageSize*(page-1));
     //throw new ErrorResponse("error",404)
-    res.json(products);
+    res.json({products,page,pages:Math.ceil(count/pageSize)});
 });
 
 //@desc get  product

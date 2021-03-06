@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e598e011-5685-4e25-88a4-5d17c74f2fd8" name="Default Changelist" comment="adding morgan ,productReviews (backend)">
+    <list default="true" id="e598e011-5685-4e25-88a4-5d17c74f2fd8" name="Default Changelist" comment="adding search (backend)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/controllers/productController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/productController.js" afterDir="false" />
     </list>
@@ -81,7 +81,7 @@
       <workItem from="1614757254207" duration="3220000" />
       <workItem from="1614841763677" duration="4009000" />
       <workItem from="1614928059844" duration="1726000" />
-      <workItem from="1615023150318" duration="1608000" />
+      <workItem from="1615023150318" duration="2832000" />
     </task>
     <task id="LOCAL-00001" summary="adding product with product Reducer">
       <created>1612524928210</created>
@@ -258,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614929817228</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="adding search (backend)">
+      <created>1615025229843</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1615025229843</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,17 +309,18 @@
     <MESSAGE value="adding admin multer FileUpload (backend)" />
     <MESSAGE value="adding multer FileUpload (backend)" />
     <MESSAGE value="adding morgan ,productReviews (backend)" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding morgan ,productReviews (backend)" />
+    <MESSAGE value="adding search (backend)" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding search (backend)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1613797785065">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1613797785065" />
-    <state x="270" y="97" key="Vcs.Push.Dialog.v2" timestamp="1614843578022">
+    <state x="270" y="97" key="Vcs.Push.Dialog.v2" timestamp="1615025267536">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="270" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1614843578022" />
+    <state x="270" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1615025267536" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614713826031">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
