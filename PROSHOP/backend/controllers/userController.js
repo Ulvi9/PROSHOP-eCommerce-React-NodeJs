@@ -8,7 +8,7 @@ import generateToken from "../utils/generateToken.js";
 //@route GET api/users/login
 //@access public
 const auth=asyncHandler(async(req,res,next)=>{
-const {email,password}=req.body;
+const {emcd,password}=req.body;
 const user =await User.findOne({email});
     if (user&&(await user.matchPassword(password))){
        return res.send({
