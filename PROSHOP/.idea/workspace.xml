@@ -19,35 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e598e011-5685-4e25-88a4-5d17c74f2fd8" name="Default Changelist" comment="adding search (backend)">
-      <change afterPath="$PROJECT_DIR$/frontend/build/asset-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/build/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/build/images/airpods.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/build/images/alexa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/build/images/camera.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/build/images/mouse.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/build/images/phone.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/build/images/playstation.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/build/images/sample.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/build/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/build/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/build/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/build/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/build/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/build/static/css/main.f84df206.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/build/static/css/main.f84df206.chunk.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/build/static/js/2.82f9613a.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/build/static/js/2.82f9613a.chunk.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/build/static/js/2.82f9613a.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/build/static/js/main.a260f29f.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/build/static/js/main.a260f29f.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/build/static/js/runtime-main.c60b7f5c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/build/static/js/runtime-main.c60b7f5c.js.map" afterDir="false" />
+    <list default="true" id="e598e011-5685-4e25-88a4-5d17c74f2fd8" name="Default Changelist" comment="adding prepare deployment  (backend)">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/userController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/actions/productActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/productActions.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +83,8 @@
       <workItem from="1614928059844" duration="1726000" />
       <workItem from="1615023150318" duration="2832000" />
       <workItem from="1615033420845" duration="1431000" />
-      <workItem from="1615104121496" duration="5057000" />
+      <workItem from="1615104121496" duration="6149000" />
+      <workItem from="1615191051558" duration="803000" />
     </task>
     <task id="LOCAL-00001" summary="adding product with product Reducer">
       <created>1612524928210</created>
@@ -293,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615025229843</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="adding prepare deployment  (backend)">
+      <created>1615112560149</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1615112560149</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +295,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="adding product with product Reducer" />
     <MESSAGE value="adding ShoppingCart UI (add,remove product shoppingCart)" />
     <MESSAGE value="adding productController(backend)" />
     <MESSAGE value="adding user Authentication(backend)" />
@@ -338,7 +319,8 @@
     <MESSAGE value="adding multer FileUpload (backend)" />
     <MESSAGE value="adding morgan ,productReviews (backend)" />
     <MESSAGE value="adding search (backend)" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding search (backend)" />
+    <MESSAGE value="adding prepare deployment  (backend)" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding prepare deployment  (backend)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1613797785065">
